@@ -1,0 +1,322 @@
+body,html{
+	width:100%;
+	font-family:"Microsoft Yahei";
+	font-size:14px;
+	background:#f6f6f6;
+	color:#666;
+}
+table{width:100%;text-align:center;border-collapse:collapse;border-spacing:1;border-spacing:0; } 
+.mr_0{
+	margin-right:0!important;
+}
+.mt_0{
+	margin-top:0!important;
+}
+.mt_10{
+	margin-top:10px;
+}
+.mt_20{
+	margin-top:20px;
+}
+.fc_f00{
+	color:#ff0000;
+}
+.fc_green{
+	color:#46CF14;
+}
+.fc_999{
+	color:#999;
+}
+.bc_fff{
+	background:#fff;
+}
+.payBtn input[type=button].bc_46cf14{
+	background:#46cf14;
+}
+span.fc_999{
+	color:#999;
+}
+.backBar{
+	width:100%;
+	height:44px;
+	background:#333;
+	color:#fff;
+	line-height:44px;
+	text-align: center;
+	font-size:19px;
+}
+.GoBack{
+	float:left;
+	padding-left:11px;
+}
+.account{
+	width:100%;
+	background:#fff;
+	padding-left:15px;
+	height:50px;
+	line-height:50px;
+	margin-bottom:10px;
+}
+.account-tips{
+	background:#fff;
+	padding:15px;
+	color:#ff0000;
+	margin-bottom:10px;
+}
+.account-tips p{
+	line-height:22px;
+}
+.recharge{
+	background:#fff;
+	color:#1798f9;
+}
+.recharge h3{
+	padding:15px;
+	border-bottom:1px solid #e2e2e2;
+}
+.pay-select{
+	padding:15px;
+}
+.pay-money{
+	float:left;
+	padding:17px 0;
+	width:31.3%;
+	text-align: center;
+	border:1px solid #1798f9;
+	margin-right:5px;
+	margin-bottom:10px;
+	border-radius: 5px;
+}
+span.active{
+	background:#1798f9;
+	color:#fff;
+}
+.payBtn{
+	width:100%;
+	text-align: center;
+}
+.memberCen{
+	padding-bottom:20px;
+	background:#fff;
+}
+.loginBtn{
+	background:none;
+}
+.payBtn input[type=button]{
+	border:none;
+	width:96%;
+	background:#1798f9;
+	color:#fff;
+	border-radius: 5px;
+	padding:16px 0;
+}
+div.memberCen input[type=button],div.loginBtn input[type=button]{
+	background:#46cf14;
+}
+.paytips{
+	padding-top:10px;
+	background:#fff;
+	padding-left:15px;
+	color:#666;
+}
+.paytips p{
+	line-height:22px;
+}
+/*充值成功*/
+.pay-right{
+	background:#fff;
+	text-align: center;
+	padding:50px 0;
+}
+.pay-right span{
+	margin-left:15px;
+	color:#1798F9;
+	font-size:20px;
+}
+/*登陆页面*/
+.yyLogo{
+	width:100%;
+	text-align: center;
+	margin-top:50px;
+	margin-bottom:40px;
+}
+.loginInfo{
+	width:100%;
+	text-align: center;
+	margin-top:10px;
+}
+.loginD{
+	position: relative;
+}
+.loginInfo input{
+	width:91%;
+	border:1px solid #c6c6c6;
+	height:44px;
+	border-radius: 5px;
+	padding-left:4%;
+}
+.infotips{
+	padding-left:4%;
+	margin-top:20px;
+	line-height:25px;
+	font-size:12px;
+}
+.verification{
+	position: absolute;
+	right:4%;
+	top:5px;
+	width:25%;
+	background:#ff6917;
+	color:#fff;
+	border-radius: 5px;
+	height:80%;
+	line-height:38px;
+	cursor:pointer;
+}
+span.intime{
+	background:#666;
+}
+.phoneEor{
+	padding-left:4%;
+	color:#ff0000;
+	line-height:25px;
+}
+.loginTips{
+	width:95%;
+	text-align: center;
+	margin:25px auto;
+	padding:34px 0;
+	background:#fff;
+	border:1px solid #c6c6c6;
+}
+.forgetpd{
+	width:95%;
+	margin:0 auto;
+}
+.forgetpd a{
+	float:right;
+	color:#666;
+	margin-top:5px;
+}
+/*遮罩层*/
+.mask{
+	position: fixed;
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,0.6);
+	text-align: center;
+}
+.mask img{
+	width:100%;
+	display:inline;
+}
+.inmask{
+	background:#fff;
+	margin:20% auto 0;
+	width:80%;
+	padding-bottom:5%;
+}
+.mask div.close{
+	margin:0 auto;
+	width:30%;
+}
+/*会员中心*/
+.mc-top{
+	background:url('../images/top_bg.jpg') no-repeat;
+	background-size:100% auto;
+	height:81px;
+	line-height:81px;
+	margin-bottom:10px;
+}
+.mc-top p{
+	color:#fff;
+	padding-left:15px;
+	
+}
+.right-arrow{
+	float:right;
+	margin-right:14px;
+}
+.payBtn.exitLog{
+	position: fixed;
+	bottom:5%;
+}
+.payBtn.exitLog input{
+	background:#fd2c2c;
+}
+.infoTip{
+	padding-left:15px;
+	margin-bottom:20px;
+}
+.newPhone input{
+	width:100%;
+	border:none;
+	border-bottom:1px solid #f6f6f6;
+	border-radius: 0;
+
+}
+.deviceStatus{
+	color:#46CF14;
+	margin-left:20%;
+}
+.payDetails{
+	background:#fff;
+	padding-left:5%;
+	height:64px;
+	padding-top:10px;
+	border-bottom:1px solid #f6f6f6;
+}
+.capitalDet{
+	background:#fff;
+	padding:18px 15px;
+	margin-bottom:15px;
+}
+.useMoney{
+	display:inline-block;
+	width:100px;
+	vertical-align: middle;
+	margin-left:10px;
+}
+.useMoney span{
+	display:inline-block;
+	width:100%;
+}
+.manageDetail{
+	width:100%;
+	background:#fff;
+
+}
+.manageDetail h3{
+	padding:18px 15px;
+}
+.manageDetail tr {
+	width:100%;
+}
+.manageDetail tr th{
+	background:#e3e3e3;
+	color:#fff;
+	font-weight:normal;
+	height:47px;
+	border-right:1px solid #fff;
+}
+.manageDetail tr td{
+	border-bottom:1px solid #f6f6f6;
+	height:47px;
+}
+.payBtn input.devfrozen{
+	width:40%;
+	background:#fff;
+	color:#fd5656;
+	border:1px solid #fd5656;
+	margin-right:5%;
+}
+.payBtn input.devreturn{
+	width:40%;
+	background:#fff;
+	color:#1798F9;
+	border:1px solid #1798F9;
+}
+.act-pay{
+	border: 1px solid #45b233;
+	color:#45b233;
+}
